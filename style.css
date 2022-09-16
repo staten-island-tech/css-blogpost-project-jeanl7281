@@ -1,14 +1,28 @@
+.parent {
+  border: 5px solid rgb(157, 183, 209);
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 5px;
+}
+.child {
+  border: 3px solid rgb(199, 190, 216);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
 body {
-  background-color: lightslategray;
-  color: cornsilk;
-  font-size: 25px;
+  background-color: rgb(157, 183, 209);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
 }
 h2 {
-  color: rgb(191, 175, 223);
-  font-size: 15px;
+  color: dimgray;
+  font-size: 20px;
 }
-.main-header {
-  color: mediumslateblue;
+h3 {
+  color: dimgray;
+  font-size: 20px;
 }
 .head {
   text-align: center;
