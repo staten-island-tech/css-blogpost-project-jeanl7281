@@ -1,34 +1,21 @@
 .parent {
-  height: 200px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  height: 100px;
   width: 500px;
   position: relative;
-  margin-top: 5px;
-  text-align: center;
-}
-.child {
-  border: 3px solid rgb(199, 190, 216);
-  top: 30px;
   text-align: center;
 }
 body {
-  text-align: center;
   background-color: rgb(157, 183, 209);
-  color: rgb(255, 255, 255);
-  font-size: 50px;
+  border: 3px solid rgb(199, 190, 216);
+  text-align: center;
 }
-h2 {
+.place {
   text-align: center;
   color: dimgray;
   font-size: 35px;
-}
-h3 {
-  text-align: center;
-  color: dimgray;
-  font-size: 35px;
-}
-h4 {
-  text-align: center;
-  color: dimgray;
-  font-size: 35px;
+  font-family: 'Bitter', serif;
 }
 
